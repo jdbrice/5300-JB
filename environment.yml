@@ -2,14 +2,15 @@ name: 5300-env
 channels:
 - conda-forge
 dependencies:
-- python
+- python <=3.10
 - nb_conda_kernels
 - numpy
 - scipy
+- sympy
 - matplotlib
 - pandas
 - seaborn
-- jupyter
+- notebook < 7.0
 - ipywidgets
 - nbdime
 - pydoe
