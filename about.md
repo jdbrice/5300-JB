@@ -2,7 +2,7 @@
 
 ## About these lecture notes and notebooks
 
-This material was originally authored by [Dick Furnstahl](https://physics.osu.edu/people/furnstahl.1) (and updated in 2024 by [Daniel Brandenburg](https://physics.osu.edu/people/brandenburg.89) ) is released under a [Creative Commons BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/). The book format is powered by [Jupyter Book](https://jupyterbook.org/).
+This material was originally authored by [Dick Furnstahl](https://physics.osu.edu/people/furnstahl.1) (updated and maintained since 2024 by [Daniel Brandenburg](https://physics.osu.edu/people/brandenburg.89) ) is released under a [Creative Commons BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/). The book format is powered by [Jupyter Book](https://jupyterbook.org/).
 
 :::{admonition} Open an issue
 If you find a problem or have a suggestion when using this Jupyter Book (on physics, math, Python, Jupyter, or formatting), from any page go under the github icon <img src="_images/GitHub-Mark-32px.png" alt="github download icon" width="20px"> at the top-middle-right and select "open issue" (you may want to open in a new tab by *right-clicking* on "open issue"). This will take you to the Issues section of the Github repository for the book. You can either use the title already there or write your own, and then describe in the bigger box your problem or suggestion.
