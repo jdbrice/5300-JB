@@ -1,5 +1,5 @@
-# Ohio State University Physics 5300 (Spring 2023)
-## "Theoretical and Computational Mechanics"
+# Ohio State University Physics 5300 (Spring 2025)
+## Theoretical and Computational Mechanics
 
 ### Objectives
 
