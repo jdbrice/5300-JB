@@ -193,7 +193,7 @@ class DDPChaosDemo(Scene):
         rod1.add_updater(lambda m: m.put_start_and_end_on(axis_pen.c2p(0,0,0), axis_pen.c2p( L * np.sin( axis_ss.p2c(vmcurve_ss1.get_end())[0] ), -L * np.cos( axis_ss.p2c(vmcurve_ss1.get_end())[0] ), 0)))
         self.add(rod1)
 
-        dot2 = Dot(radius=0.2, color=BLUE)
+        dot2 = Dot(radius=0.2, color=BLUE_B)
         dot2.add_updater(lambda m: m.move_to(axis_pen.c2p( L * np.sin( axis_ss.p2c(vmcurve_ss2.get_end())[0] ), -L * np.cos( axis_ss.p2c(vmcurve_ss2.get_end())[0] ), 0)))
         self.add(dot2)
 
@@ -204,6 +204,15 @@ class DDPChaosDemo(Scene):
         rod2.add_updater(lambda m: m.put_start_and_end_on(axis_pen.c2p(0,0,0), axis_pen.c2p( L * np.sin( axis_ss.p2c(vmcurve_ss2.get_end())[0] ), -L * np.cos( axis_ss.p2c(vmcurve_ss2.get_end())[0] ), 0)))
         self.add(rod2)
 
+        ssdot1 = Dot(radius=0.2, color=RED)
+        ssdot1.add_updater(lambda m: m.move_to( vmcurve_ss1.get_end() ) ) 
+        ssdot1.set_z_index(100) # keep the dots visible above the curve
+        self.add(ssdot1)
+
+        ssdot2 = Dot(radius=0.2, color=BLUE_B)
+        ssdot2.add_updater(lambda m: m.move_to( vmcurve_ss2.get_end() ) )
+        ssdot2.set_z_index(101)
+        self.add(ssdot2)
         
 
         # ss1_dot = Dot(radius=0.1, color=RED)
