@@ -1,8 +1,8 @@
-name: 5300-env
+name: PHYS5300
 channels:
 - conda-forge
 dependencies:
-- python <=3.10
+- python
 - nb_conda_kernels
 - numpy
 - scipy
@@ -10,7 +10,8 @@ dependencies:
 - matplotlib
 - pandas
 - seaborn
-- notebook < 7.0
+- notebook
 - ipywidgets
 - nbdime
 - pydoe
+- manim
